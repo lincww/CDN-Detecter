@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "CDN detector",
+  "version": "0.0.0.1",
+  "icons": {
+    "32": "images/icon-32.png"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "default_locale": "en",
+  "description": "A CDN detector"
+}
