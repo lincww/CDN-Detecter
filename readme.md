@@ -2,10 +2,21 @@
 
 A simple Chrome extension for detect which CDN does website use and got meta info
 
-## Support CDN provider
+## Supported CDN provider
 
-- Cloudflare
-- Fastly
+- [x] Cloudflare
+- [x] CDN77
+- [x] Google Cloud CDN
+- [x] CloudFront
+- [ ] Fastly
+- [x] Bunny.net
+- [x] Vercel
+- [ ] Gcore
+- [ ] CDN.net
+- [ ] Edgio
+- [ ] Haproxy Edge
+- [ ] Cachefly
+- [ ] OVH Cloud
 
 ## How to?
 

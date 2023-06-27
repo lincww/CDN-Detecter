@@ -1,16 +1,15 @@
 {
   "name": "cdn-detector",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "0.0.0.1",
+  "description": "Detect which CDN provider does website use",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "parcel build src/manifest.json"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "license": "GPL-3.0-or-later",
   "devDependencies": {
     "@parcel/config-webextension": "^2.8.3",
+    "@types/chrome": "^0.0.237",
+    "parcel": "^2.9.3",
     "postcss": "^8.4.23",
     "tailwindcss": "^3.3.2",
     "typescript": "^5.0.4"

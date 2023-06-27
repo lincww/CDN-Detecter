@@ -2,12 +2,26 @@
   "manifest_version": 3,
   "name": "CDN detector",
   "version": "0.0.0.1",
+  "description": "Detect which CDN provider the website uses",
   "icons": {
-    "32": "images/icon-32.png"
+    "512": "icon.png"
   },
   "action": {
+    "default_icon": {
+      "512": "icon.png"
+    },
     "default_popup": "popup.html"
   },
-  "default_locale": "en",
-  "description": "A CDN detector"
+  "background": {
+    "service_worker": "background.ts",
+    "type": "module"
+  },
+  "permissions": [
+    "activeTab",
+    "webRequest",
+    "tabs"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ]
 }
